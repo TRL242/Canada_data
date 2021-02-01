@@ -5,7 +5,7 @@ from twilio.rest import Client
 
 BANK_OF_CANADA_ENDPOINT = "https://www.bankofcanada.ca/valet"
 STATS_CANADA_ENDPOINT = "https://www150.statcan.gc.ca/t1/wds/rest/getCubeMetadata"
-BC_GOV = 
+BC_GOV =
 
 
 #=============================BANK OF CANADA==================================#

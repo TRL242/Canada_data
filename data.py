@@ -1,6 +1,6 @@
 import requests
 import os
-from twilio.rest import Client
+
 
 
 BANK_OF_CANADA_ENDPOINT = "https://www.bankofcanada.ca/valet"

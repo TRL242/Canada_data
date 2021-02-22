@@ -64,9 +64,9 @@ linkedin_params = {
     "scope": "r_liteprofile,r_emailaddress,w_member_social"
 }
 response = requests.get(url=LINKEDIN_ENDPOINT, params=linkedin_params)
-
-indeed_data = response.json()
-print(indeed_data)
+linkedin_data = response.content()
+#linkedin_data = response.json()
+print(linkedin_data)
 
 
 

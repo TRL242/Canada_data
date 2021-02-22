@@ -5,7 +5,7 @@ from twilio.rest import Client
 
 BANK_OF_CANADA_ENDPOINT = "https://www.bankofcanada.ca/valet"
 STATS_CANADA_ENDPOINT = "https://www150.statcan.gc.ca/t1/wds/rest/getCubeMetadata"
-GLASSDOOR_ENDPOINT = "http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=120&t.k=fz6JLNDfgVs&action=employers&q=pharmaceuticals&userip=192.168.43.42&useragent=Mozilla/%2F4.0"
+LINKEDIN_ENDPOINT = "https://api.linkedin.com/v2/{service}/{resourceIdentifier}"
 
 #
 # #=============================BANK OF CANADA==================================#
@@ -54,20 +54,19 @@ GLASSDOOR_ENDPOINT = "http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=1
 
 #=============================GLASSDOOR==================================#
 
-glassdoor_params = {
-    "v": 1,
-    "format": "json",
-    "t.p": ###,
-    "t.k": ###,
-    "userip": "24.69.129.244",
-    "useragent": 24.69.129.244,
-    "action": 24.69.129.244,
-    "action": 24.69.129.244,
+linkedin_params = {
+    "active": true,
+    "client_id": "xxxxxxxx",
+    "authorized_at": 1493055596,
+    "created_at": 1493055596,
+    "status": "active",
+    "expires_in": 1497497620,
+    "scope": "r_liteprofile,r_emailaddress,w_member_social"
 }
-response = requests.get(url=GLASSDOOR_ENDPOINT, params=glassdoor_params)
+response = requests.get(url=LINKEDIN_ENDPOINT, params=linkedin_params)
 
-glassdoor_data = response.json()
-print(glassdoor_data)
+indeed_data = response.json()
+print(indeed_data)
 
 
 

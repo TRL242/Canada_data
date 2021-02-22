@@ -1,16 +1,25 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+#-------------------------------------------------QUESTIONS-------------------------------------------------#
+primary_age=input("Age: ")
+province_in_canada = input("Province: ")
+city_in_canada = input("City: ")
+primary_expected_occupation = input("Expected Occupation:  ")
+with_secondary = input("Coming with signification other:  ")
+secondary_expected_occupation = input("Expected Occupation:  ")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+#-------------------------------------------------INCOME ESTIMATE-------------------------------------------------#
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#-------------------------------------------------RENT ESTIMATE-------------------------------------------------#
+
+
+
+#-------------------------------------------------EXPENSE OTHER THAN HOUSING ESTIMATE-------------------------------------------------#
+
+
+
+#-------------------------------------------------EXPENSE ESTIMATE-------------------------------------------------#
+
